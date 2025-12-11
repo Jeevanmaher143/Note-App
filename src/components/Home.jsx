@@ -94,7 +94,7 @@ const Home = () => {
                          whitespace-nowrap relative overflow-hidden group"
             >
               <span className="relative z-10">
-                {pasteId ? "💾 Update Paste" : "✨ Create Paste"}
+                {pasteId ? "💾 Update Note" : "✨ Create Note"}
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-white to-transparent 
                             opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
