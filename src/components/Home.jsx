@@ -52,7 +52,7 @@ const Home = () => {
         <div className="text-center mb-10 animate-fadeIn">
           <h1 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 
                          bg-clip-text text-transparent mb-3 animate-slideDown">
-            {pasteId ? "✏️ Edit Your Paste" : "📝 Create New Paste"}
+            {pasteId ? "✏️ Edit Your Note" : "📝 Create New Note"}
           </h1>
           <p className="text-gray-600 text-lg">
             {pasteId ? "Update your content below" : "Start writing your content below"}
@@ -138,7 +138,7 @@ Your content will be saved securely."
               <span>Auto-saved locally</span>
             </div>
             <div className="text-xs text-gray-400">
-              {pasteId ? "Editing existing paste" : "Creating new paste"}
+              {pasteId ? "Editing existing Notes" : "Creating new Notes"}
             </div>
           </div>
         </div>

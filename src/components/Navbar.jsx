@@ -13,7 +13,7 @@ const Navbar = () => {
               <span className="text-white text-xl font-bold">📝</span>
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              PasteApp
+              Note App
             </span>
           </div>
 
